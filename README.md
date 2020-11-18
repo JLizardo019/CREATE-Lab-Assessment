@@ -1,5 +1,5 @@
 # CREATE-Lab-Assessment
 
-Implement this wireframe
+Implement this wireframe:
 
-![Wireframe](wireframe.png]
+![Wireframe](wireframe.png)

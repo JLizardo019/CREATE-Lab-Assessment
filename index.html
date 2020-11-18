@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wire Frame</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="border_left border_right border_top border_bottom">
+        <div class="border_right" id="logo">LOGO</div>
+        <nav>
+            <p>NAVIGATION</p>
+            <div id="links">
+                <a href="#">HOME</a> <p>|</p>
+                <a href="#">LINK</a> <p>|</p> 
+                <a href="#">LINK</a> <p>|</p> 
+                <a href="#">LINK</a> <p>|</p>
+                <a href="#">LINK</a>
+            </div>
+        </nav>
+    </header>
+    <div class="border_left border_right" id= "title">
+        <div class="border_right"id="project">PROJECT PROGRESS</div>
+        <div id="badges">MY BADGES</div>
+    </div>
+    <div class="border_left border_right border_top border_bottom" id="body">
+        <main>MAIN CONTENT GOES HERE</main>
+        <aside class="border_left" id="sidebar">
+            <section id="stars">
+                <div id="row1">
+                    <img class="star" onclick=onClick(this) src="star.png">
+                    <img class="star" onclick=onClick(this) src="star.png">
+                    <img class="star" onclick=onClick(this) src="star.png">
+                    <img class="star" onclick=onClick(this) src="star.png">
+                </div>
+                <div id="row2">
+                    <img class="star" onclick=onClick(this) src="star.png">
+                    <img class="star" onclick=onClick(this) src="star.png">
+                    <img class="star" onclick=onClick(this) src="star.png">
+                    <img class="star" onclick=onClick(this) src="star.png">
+                </div>
+            </section>
+            <section class="border_top border_bottom activity">ACTIVITY ONE</section>
+            <section class="border_bottom activity">ACTIVITY TWO</section>
+            <section class="border_bottom activity">ACTIVITY THREE</section>
+            <section class="activity">ACTIVITY FOUR</section>
+        </aside>
+    </div>
+    <footer class="border_right border_left border_bottom">
+        <div class="border_right" id="discuss">DISCUSSION</div>
+        <div id="poll">POLL</div>
+
+    </footer>
+    
+</body>
+<script>
+    function onClick(element){
+        element.src= "star2.png";
+    }
+</script>
+</html>

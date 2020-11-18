@@ -1,0 +1,105 @@
+/* First row */
+header {
+    display: flex;  
+}
+#logo{ 
+    width:28%;
+    text-align: center;
+    padding: 1.9em 0px 1.9em 0px;
+}
+nav{
+    padding: 1.2em 0px 1.2em 0px;
+    text-align: center;
+    margin: auto;
+}
+nav p{
+    margin: 0px;
+}
+#links{
+    display: flex;
+}
+#links p{
+    margin: 0px 0.3em 0px 0.3em;
+}
+
+/* Second Row */
+#title {
+    display: flex;
+}
+#project {
+    width:71%;
+    text-align: center;
+    padding: 1em 0px 1em 0px;
+}
+#badges{
+    text-align: center;
+    width: 29%;
+    padding: 1em 0px 1em 0px;
+}
+
+/* Third Row */
+#body{
+    display: flex;
+    align-items: center;
+}
+main{
+    width: 71%;
+    text-align: center;
+    padding: 5em 0px 5em 0px;
+}
+#sidebar{
+    width: 29%;
+    height: 30em;
+}
+#stars{
+    margin-top: 1em;
+    margin-bottom: 1.8em;
+    height: 8em;
+}
+.star{
+    width:3em;
+    height:2.5em;
+}
+#row1, #row2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.activity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:5em;
+    
+}
+
+/* Fourth Row */
+footer{
+    display: flex;
+}
+#discuss { 
+    text-align: center;
+    width: 71%;
+    padding: 4.5em 0px 4.5em 0px;
+}
+#poll{
+    padding: 4.5em 0px 4.5em 0px;
+    text-align: center;
+    width: 29%;
+}
+
+/* Border */
+.border_left {
+    border-left: 1px solid black;
+}
+.border_right {
+    border-right: 1px solid black;
+}
+.border_bottom {
+    border-bottom: 1px solid black;
+}
+.border_top {
+    border-top: 1px solid black;
+}
+
